@@ -1,7 +1,31 @@
 <!doctype html />
 <html>
 <head>
+<meta charset="utf-8">
 <title>A Web Page</title>  
+<link rel="prefetch" href="http://www.w3schools.com">
+<style>
+    
+    h1 
+    {
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 30px;
+        color: #7924ff;
+        font-style: italic;
+        font-weight: bold;
+    }    
+    
+    h2
+    {
+        font-family: "Lucida Console", Monaco, monospace;
+        font-size: 20px;
+        color: teal;
+    }
+    p,li
+    {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+</style>    
 </head>
 <body>
   <h1>A simple web page</h1>
@@ -16,5 +40,15 @@
   <li>Second item</li>
   <li>Third item</li>
 </ul>    
+<!-- This is a comment in the document. It won't appear in the web browser-->    
+
+<h2>Adding links</h2>    
+<p>It's easy to create hyperlinks to other web pages, or to create a link to generate an email. Here's how:</p>    
+<ul>
+  <li><a href="http://www.w3schools.com" target="_blank">Here's a good resource</a> for learning HTML</li>    
+  <li>If you want to say Hi, <a href="mailto:hello@kittykatattack.com?Subject=Hello%20there!">Send me an email.</a></li>
+</ul>    
+<p>Add a photo with an img tag, like this:</p>
+<img src="images/scrshot.png" alt="Some screenshot" title="Some screenshot" height="520">    
 </body>
 </html>
